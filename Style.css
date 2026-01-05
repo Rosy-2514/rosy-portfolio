@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #0a0a0a;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar a:hover {
+    color: #00ffd5;
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(120deg, #d1ccff, #ffb7b9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 0%;
+    margin-bottom: 15px;
+    border: 4px solid white;
+}
+
+.home h1 span {
+    color: #111;
+}
+
+.home button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+}
+
+.section {
+    padding: 80px 10%;
+}
+
+.section span {
+    background: #0077ff;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.light {
+    background: #f4f4f4;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills span {
+    background: #0077ff;
+    color: white;
+    padding: 8px 15px;
+    margin: 8px;
+    border-radius: 20px;
+}
+
+.cert-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.cert-card {
+    background: #ffffff;
+    padding: 15px 20px;
+    border-left: 5px solid #0077ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+    font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+}
+
+.accomplish-list {
+    max-width: 900px;
+    margin: auto;
+}
+
+.accomplish-card {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+
+.accomplish-card h3 {
+    color: #0077ff;
+    margin-bottom: 10px;
+}
+
+.accomplish-card ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.accomplish-card li {
+    margin-bottom: 6px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
